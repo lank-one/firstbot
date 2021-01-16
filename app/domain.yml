@@ -1,0 +1,41 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - menu
+
+responses:
+  utter_greet:
+  - text: "¡Hola! ¿En que puedo ayudarte?"
+
+  utter_cheer_up:
+  - text: "¡Lo siento! No te he entendido"
+
+  utter_did_that_help:
+  - text: "¿Que puedo hacer por ti?"
+
+  utter_happy:
+  - text: "¡Genial!"
+
+  utter_goodbye:
+  - text: "¡Hasta la próxima!"
+
+  utter_iamabot:
+  - text: "Soy un bot con inteligencia artifical."
+
+  utter_menu:
+    - text: "MENÚ"
+
+  utter_services:
+    - text: "Ver servicios"
+
+  utter_catalog:
+    - text: "Ver catálogo"
+    
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
